@@ -31,7 +31,6 @@ const productSchema = new Schema ({
     saler: {
         type: Schema.Types.ObjectId,
         ref: 'User',
-        required: true
     },
     reviews: [
         {
